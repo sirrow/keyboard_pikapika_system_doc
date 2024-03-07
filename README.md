@@ -28,7 +28,7 @@ Raw HID については[こちら](https://github.com/qmk/qmk_firmware/blob/mast
 ## キーボードピカピカシステムに接続可能となったかの確認方法
 下記 Web サイトにアクセスして「CONNECT」ボタンを押して、キーボードを選択したのち、LED の色の変更ができれば成功です。
 
-[https://hsgw.githug.io/hid-rgbled-tester/](https://github.com/sirrow/qmk_firmware/)
+[https://hsgw.githug.io/hid-rgbled-tester/](https://hsgw.githug.io/hid-rgbled-tester/)
 
 
 ## 連絡先
