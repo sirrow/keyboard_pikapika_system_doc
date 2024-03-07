@@ -30,3 +30,6 @@ Raw HID については[こちら](https://github.com/qmk/qmk_firmware/blob/mast
 
 [https://hsgw.githug.io/hid-rgbled-tester/](https://github.com/sirrow/qmk_firmware/)
 
+
+## 連絡先
+不明な点も多いかと思います。ご質問が有りましたら、私の twitter アカウント @sirrow までご連絡ください。
