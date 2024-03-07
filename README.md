@@ -31,5 +31,7 @@ Raw HID については[こちら](https://github.com/qmk/qmk_firmware/blob/mast
 
 [https://hsgw.github.io/hid-rgbled-tester/](https://hsgw.github.io/hid-rgbled-tester/)
 
+Linux を用いている場合、一般ユーザから HID デバイスにアクセスするための権限が不足しているため、追加での設定が必要となる場合があります。追加設定については[こちらを参照ください](linux_hid_permission.md)。
+
 ## 連絡先
 不明な点も多いかと思います。ご質問が有りましたら、私の twitter アカウント [@sirrow](https://twitter.com/sirrow) までご連絡ください。
