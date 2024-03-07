@@ -22,14 +22,14 @@ Raw HID については[こちら](https://github.com/qmk/qmk_firmware/blob/mast
    - 例えば、 VIA コンフィグレーターは、内部的には Raw HID を用いて実現されています。このような場合には Raw HID を用いるための定義が重複し、QMK ピカピカファームウェアのコンパイルに失敗します。一般的に VIA コンフィグレータ対応のキーマップを用意しているキーボード向けには、 VIA コンフィグレータを用いないキーマップも用意されていますので、こちらをコンパイルし書き込んでしてください。
 
 ピカピカファームウェアは[こちらの git レポジトリ](https://github.com/sirrow/qmk_firmware/)の pikapika ブランチにあります。pikapika ブランチを checkout した後、qmk compile コマンドでコンパイルの後、書き込みを行ってください。
-書き込みに先立ち、念の為現状復帰ができる状態にあることを確認してください。
+
+**書き込みを行うとキーボードに保存されているキーマップや設定がリセットされてしまいます。書き込みに先立ち、現状復帰ができる状態にあることを確認してください。**
 
 
 ## キーボードピカピカシステムに接続可能となったかの確認方法
 下記 Web サイトにアクセスして「CONNECT」ボタンを押して、キーボードを選択したのち、LED の色の変更ができれば成功です。
 
 [https://hsgw.github.io/hid-rgbled-tester/](https://hsgw.github.io/hid-rgbled-tester/)
-
 
 ## 連絡先
 不明な点も多いかと思います。ご質問が有りましたら、私の twitter アカウント [@sirrow](https://twitter.com/sirrow) までご連絡ください。
