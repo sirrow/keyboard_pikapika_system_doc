@@ -1,7 +1,7 @@
 # キーボードピカピカシステム
 キーボードピカピカシステムは、 [2024年3月24日に秋葉原 Mogra で開催予定の Keysounds!!! #2 ](https://club-mogra.jp/2024/03/24/5184/)にお持ちいただいた皆様のキーボードを、演出の一部として外部よりコントロール可能とする仕組みです。
 
-<img src="overview1.png" width="48%"> <img src="overview2.png" width="48%">
+<img src="overview1.png" width="450px"> <img src="overview2.png" width="450px">
 
 
 ## ざっくりとした仕組み
