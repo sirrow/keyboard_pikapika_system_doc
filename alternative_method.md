@@ -18,6 +18,10 @@ RAW_ENABLE = yes
 ```
 
 また、普段ご利用のキーマップの keymap.c ファイルに対して、下記のコードを追記してください。
+他の設定については前ページのTIPSも参考にしてください。
+
+**via/remap/vialが有効になっているキーマップでは使用できません**
+
 ```c
 // 上の方のヘッダとか include する部分
 #include "raw_hid.h"
@@ -47,6 +51,13 @@ void raw_hid_receive(uint8_t *data, uint8_t length) {
             break;
     }
     raw_hid_send(data, length);
+}
+
+void keyboard_post_init_user(void) {
+    // 起動時にRGBLEDを有効化して消灯する
+    rgblight_enable_noeeprom();
+    rgblight_mode_noeeprom(RGBLIGHT_MODE_STATIC_LIGHT);
+    rgblight_sethsv_noeeprom(0,0,0);
 }
 ```
 
