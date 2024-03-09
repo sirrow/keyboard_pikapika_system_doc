@@ -29,6 +29,11 @@ Raw HID については[こちら](https://github.com/qmk/qmk_firmware/blob/mast
 
 **書き込みを行うとキーボードに保存されているキーマップや設定がリセットされてしまいます。書き込みに先立ち、現状復帰ができる状態にあることを確認してください。**
 
+#### TIPS
+- `rgbmatrix`はオフにして`rgblight`だけの環境だと安心です
+- 明るさの最大値、`MAX_BRIGHTNESS` は、`100`ぐらいで十分です
+  * LEDの個数によるので消費電流500mAぐらいを目安に設定してください 
+- LEDのアニメーションモードは常時`RGBLIGHT_MODE_STATIC_LIGHT`である必要があります
 
 ### 他の方法
 上で説明しているQMKピカピカファームウェアがうまく使えない場合のために、[他の方法もあります](alternative_method.md)。
