@@ -1,12 +1,16 @@
 # キーボードピカピカシステム
 キーボードピカピカシステムは、 [2024年3月24日に秋葉原 Mogra で開催予定の Keysounds!!! #2 ](https://club-mogra.jp/2024/03/24/5184/)にお持ちいただいた皆様のキーボードを、演出の一部として外部よりコントロール可能とする仕組みです。
 
+<img src="overview1.png" width="48%"> <img src="overview2.png" width="48%">
+
+
 ## ざっくりとした仕組み
 キーボードから、キーボードピカピカシステムへの接続は、当日会場に設置予定の Raspberry PI 5 に接続された USB ハブに対して行うことを予定しています。
 
 Raspberry PI 5 からキーボードへのLEDの点灯情報の送信は、 QMK ファームウェアが用意する Raw HID と呼ばれる 、HID インタフェースを介して QMK ファームウェアとホストコンピュータ間の双方向通信を可能とする仕組みにより行います。
 
 Raw HID については[こちら](https://github.com/qmk/qmk_firmware/blob/master/docs/ja/feature_rawhid.md)に説明があります。
+
 
 
 ## キーボードピカピカシステムに接続するキーボードの準備
